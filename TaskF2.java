@@ -1,6 +1,5 @@
 package com.company;
 
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
@@ -32,6 +31,7 @@ public class TaskF2 {
                 }
             }
         }
+        reader.close();
         System.out.println(wordCount);
     }
 }
